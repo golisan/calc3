@@ -99,6 +99,10 @@
         >
       </li>
     </ul>
+    <button>Hallo</button>
+    <div id="components-demo">
+      <button-counter></button-counter>
+    </div>
   </div>
 </template>
 
