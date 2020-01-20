@@ -100,15 +100,16 @@
       </li>
     </ul>
     <button>Hallo</button>
-    <div id="components-demo">
-      <button-counter></button-counter>
-    </div>
+      <ButtonCounter></ButtonCounter>
+    <button>Ende</button>
   </div>
 </template>
 
 <script>
+import ButtonCounter from "./ButtonCounter";
 export default {
   name: "HelloWorld",
+  components: {ButtonCounter},
   props: {
     msg: String
   }
